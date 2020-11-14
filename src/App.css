@@ -1,0 +1,159 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+  
+
+h1{
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0pt;
+}
+h4{
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+#link1{
+  color: white;
+}
+#link2 {
+  color: white;
+}
+#link3 {
+  color: white;
+}
+
+#mainDiv {
+  height: 100vh; 
+}
+
+.center {
+	width: 100%;
+  height: 100px;
+	position: absolute;
+	top:0;
+	bottom: 10vh;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#bottom {
+  width: 300px;
+  height: 50 px;
+  position: absolute;
+  top: 70%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.headingDiv {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  top:80px;
+	bottom: 80px;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+}
+
+
+.parentDiv{
+  width: 95vw;
+  height: fit-content;
+  position: relative;
+  top: 300px;
+	bottom: 300px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#cardDeck {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  top:100px;
+	bottom: 100px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#myProjectsCarousel{
+  position: relative;
+  top: 75px;
+	bottom: 75px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+/*#meImage {
+  height: auto;
+  max-width: 50%;
+}*/
+#aboutme {
+  background-color: black;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+#responsive-navbar-nav{
+  border-color:white;
+}
+#myprojects {
+  background-color: black  ;
+  height: fit-content;
+  width: 100%;
+}
+
+
+.codeBlock {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.slidesimages{
+  width: 100vw;
+  height: 80vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
